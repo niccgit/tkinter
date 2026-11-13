@@ -22,4 +22,8 @@ menu_voltar = tk.PhotoImage(master=window, file='Back.png')
 voltar_label = tk.Label(window, image=menu_voltar, bg='white')
 voltar_label.place(relx=0.18, rely=0.2, anchor='e')
 
+
+
+
+
 window.mainloop()
