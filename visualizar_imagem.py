@@ -17,5 +17,3 @@ senha.pack()
 
 acesso = tk.Button(window, text="ACESSAR")
 acesso.pack()
-
-# eu tentei mt ta leonid mas o problema não estava entre a mesa e a cadeira KKKKKKKKKKK (pelo menos dessa vez)
