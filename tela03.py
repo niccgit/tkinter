@@ -15,6 +15,11 @@ logo_topo = tk.PhotoImage(master=window, file='imagem1.png')
 logo_topo_reduzida = logo_topo.subsample(4,4)
 
 logo_label = tk.Label(window, image=logo_topo_reduzida)
-logo_label.place(relx=1, rely=0.10, anchor="e")
+logo_label.place(relx=0.97, rely=0.10, anchor="e")
+
+menu_voltar = tk.PhotoImage(master=window, file='Back.png')
+
+voltar_label = tk.Label(window, image=menu_voltar, bg='white')
+voltar_label.place(relx=0.18, rely=0.2, anchor='e')
 
 window.mainloop()

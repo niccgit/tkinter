@@ -15,7 +15,7 @@ logo_topo = tk.PhotoImage(master=window, file='imagem1.png')
 logo_topo_reduzida = logo_topo.subsample(4,4)
 
 logo_label = tk.Label(window, image=logo_topo_reduzida)
-logo_label.place(relx=1, rely=0.10, anchor="e")
+logo_label.place(relx=0.97, rely=0.10, anchor="e")
 
 menu_centro = tk.PhotoImage(master=window, file='Menu- Center.png') 
 
